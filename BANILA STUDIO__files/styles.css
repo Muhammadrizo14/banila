@@ -203,6 +203,10 @@
 .fsz-4 {
 	font-size: 10.4408521875vh;
 	letter-spacing: -0.1566127828vh;
+	width: 760px;
+}
+
+.logo__a {
 }
 
 .fsz-f {
@@ -930,6 +934,13 @@
     z-index: 1;
 }
 
+#contact1C {
+	background-image: url('../img/XXXL.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #rain {
 	/* mask: url(../img/mask-b.svg);
 	-webkit-mask: url(../img/mask-b.svg);
@@ -950,11 +961,11 @@
 	display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    max-width: 666px;
+    height: 471px;
+    max-width: 561.8px;
     margin: 0 auto;
     margin-top: 184px;
-	-webkit-user-drag: none;						
+    -webkit-user-drag: none;				
 }
 
 #v-asset {
