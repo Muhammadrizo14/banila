@@ -931,15 +931,30 @@
 }
 
 #rain {
-	mask: url(../img/mask-b.svg);
+	/* mask: url(../img/mask-b.svg);
 	-webkit-mask: url(../img/mask-b.svg);
 	mask-position: center;
 	-webkit-mask-position: center;
 	mask-repeat: no-repeat;
 	-webkit-mask-repeat: no-repeat;
 	mask-size: 70vh;
-	-webkit-mask-size: 70vh;
+	-webkit-mask-size: 70vh; */
+	/* background-image: url('../img/rain.jpg');
+	background-size: 90px;
+	background-position: center;
+	background-repeat: no-repeat; */
 	position: relative;
+}
+
+.oratga {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    max-width: 666px;
+    margin: 0 auto;
+    margin-top: 184px;
+	-webkit-user-drag: none;						
 }
 
 #v-asset {
@@ -3563,6 +3578,17 @@ a:hover .ol-icon line:nth-child(3),
 .red__logo {
 	color: #f00;
 }
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/Century\ Gothic.ttf');
+}
+
+
+.century {
+	font-family: 'Century Gothic';
+}
+
 .alt #services-rail .d-rl-line,
 .alt #contact-rail .d-rl-line,
 .alt .d-v-line,
