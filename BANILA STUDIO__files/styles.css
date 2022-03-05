@@ -3788,3 +3788,6 @@ a:hover .ol-icon line:nth-child(3),
 :lang(eus) .lgd-l3 {
 	display: none !important;
 }
+.change-c h1 {
+	color: #fff;
+}

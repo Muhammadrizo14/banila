@@ -1,3 +1,14 @@
+let l =  document.querySelector('.l-v-mode-t')
+let d =  document.querySelector('.d-v-mode-t')
+
+let body =  document.getElementsByTagName('body')
+
+
+d.addEventListener('click', ()=> {
+	console.log('adjkfdj')
+})
+
+console.log('assalomu alaykum ');
 
 function nextLogo(){
 	    document.querySelector('.slide-content').classList.add('forwards');
@@ -88,7 +99,7 @@ function preLogo(){
                     http_request = new ActiveXObject("Microsoft.XMLHTTP");
                 } catch (e) {}
             }
-        }
+        }z
 
         if (!http_request) {
             alert('Falla :( No es posible crear una instancia XMLHTTP');
@@ -229,7 +240,7 @@ clickev();
 
 
 
-var trans=[
+var trans=[,
 {class:'.nav-about', en:'About', es:'Nosotros' , eu:'Gu'},
 {class:'.nav-work', en:'Work',es:'Trabajo', eu:'Lana'},
 {class:'.nav-contact', en:'Contact', es:'Contacto', eu:'Kontaktua'},
@@ -239,7 +250,7 @@ var trans=[
 {class:'.v-l2', en:'BESPOKE DIGITAL',es:'SOLUCIONES DIGITALES',eu:'SOLUZIO DIGITAL'},
 {class:'.v-l3', en:'SOLUTIONS',es:'PERSONALIZADAS',eu:'PERTSONALIZATUAK'},
 {class:'.fol', en:'ABOUT',es:'NOSOTROS',eu:'GU'},
-{class:'.abd-l1', en:'We are a branding and digital design studio',es:'Somos un estudio de branding y diseño digital',eu:'Branding eta diseinu digitaleko estudioa gara,'},
+{class:'.abd-l1' en:'We are a branding and digital design studio',es:'Somos un estudio de branding y diseño digital',eu:'Branding eta diseinu digitaleko estudioa gara,'},
 {class:'.abd-l2', en:'based in Getxo, Basque Country. We work alone or in',es:'afincado en Getxo, País Vasco. Trabajamos de manera',eu:'Getxon finkatua. Modu independentean edo sormen-'},
 {class:'.abd-l3', en:'collaboration with creative agencies to craft solid products',es:'independiente o en colaboración con agencias creativas',eu:'agentziekin batera lan egiten dugu, iradoki, erakarri eta'},
 {class:'.abd-l4', en:'and services that inspire, engage and create lasting value.',es:'para elaborar productos y servicios solidos que inspiran,',eu:'balio erantsia sortzeko gai diren produktu eta zerbitzu'},
@@ -335,3 +346,5 @@ var trans=[
 {class:'.lgt-l6', en:'or any other hidden data on their web browsers.',es:'cookies o cualquier otro dato oculto en sus navegadores web.',eu:'web-nabigatzaileetan ezkutuko cookie-ak edo beste edozein daturik jartzen.'},
 {class:'.lgt-l7', en:'All text is set in Post Grotesk, designed by Josh Finklea.',es:'La tipografía utilizada en toda la web es Post Grotesk, diseñada por Josh Finklea.',eu:'Web osoan erabiltzen den tipografia Post Grotesk da, Josh Finkleak diseinatua.'}
 ]
+
+
