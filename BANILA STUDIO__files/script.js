@@ -224,6 +224,11 @@ clickev();
 // 	document.getElementsByTagName('body').add()
 // })
 
+
+
+
+
+
 var trans=[
 {class:'.nav-about', en:'About', es:'Nosotros' , eu:'Gu'},
 {class:'.nav-work', en:'Work',es:'Trabajo', eu:'Lana'},

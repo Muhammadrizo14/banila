@@ -1242,6 +1242,10 @@
     height: 100vh;
     position: relative;
     width: 167.05359vh;
+	background-image: url('../img/team.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .about-b-img {
